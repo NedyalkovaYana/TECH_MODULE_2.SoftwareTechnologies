@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftUni Blog</title>
+    <link type ="text/css" rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="logIn.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <h2>DevOps – a cultural shift</h2>
+                    </header>
+
+                    <p>Success today is defined by the ability to turn ideas into value faster than your
+                        competition, how quickly you can experiment, fail fast, learn fast, test, tune and make it
+                        better. The behavior of developers is to make changes and enhance the application to generate
+                        revenue streams. Operations, on the other hand, is all about stability and reliability to keep
+                        business running 24/7. So how can you reconcile these two conflicting views and reduce friction
+                        between the teams? Enter DevOps.
+
+                        DevOps is not a technology but it is a process and a mindset change to promote collaboration
+                        between Dev and Ops teams. According to research from Puppet Labs, IT organizations embracing DevOps
+                        deploy 200x more frequently, have 24x faster recovery times, 3x lower failure rates and spend 22% less
+                        time on unplanned work and rework. This is not a coincidence because these organizations have implemented
+                        a process of Continuous Integration and Continuous Deployment (CI and CD) where every step of the
+                        application lifecycle from development to deployment is automated with feedback loops for continuous
+                        improvement.
+                        Infrastructure automation
+
+                        Today, developers expect same level of efficiency, ease of access and disposal of infrastructure similar to
+                        hyperscale cloud environments. Therefore, every part of the infrastructure should be composable and
+                        accessible as a line of code. With HPE OneView, you can automate entire “Infrastructure-as-code” using
+                        your favorite configuration management tools such as Chef, Puppet or Ansible and deploy IT resources for
+                        any workload easily within few minutes, a task that used to take several days to weeks to deploy. A great example
+                        of Composable Infrastructure is HPE Synergy which includes HPE 3PAR StoreServ flash storage and software-defined
+                        storage StoreVirtual VSA as storage building blocks. The RESTful APIs from Storage platform are then exposed to
+                        automation
+                        tools via HPE OneView for storage provisioning, management etc.
+                        All-Flash Array as a DevOps enabler
+
+                        Historically, one of the reasons that Dev and Ops environments were siloed was because the underlying infrastructure
+                        – and storage in particular – did not have the horsepower to host both of these environments on same platform.
+                        This led to Dev and QA teams making their own redundant copies of datasets. Imagine if you had a 10TB database that
+                        gets copied around. . . you get the picture. Using 3PAR All-flash array, Dev and Ops can be consolidated on the same
+                        storage platform. Benefits to this approach include:
+
+                        Storage footprint reduction. By creating snapshots/clones of production datasets, IT teams can eliminate the need
+                        for Dev & QA to make multiple distinct copies of datasets.
+                        Improve code quality and faster issue resolution. Application development/QA will have access to fresh production
+                        quality datasets to test against real world environments.
+                        On a 3PAR StoreServ All-Flash array, you can use features such as Priority Optimization to set Quality of Service
+                        (QoS) controls and sub-1 ms latency. Ops teams can eliminate noisy neighbor issues and set bandwidth/IOPS/latency
+                        goals for Dev teams without compromising production SLAs.
+
+                        While DevOps is a power enabler that promotes collaboration between typically siloed Dev and Ops teams, it is equally
+                        important to have the right infrastructure that provides necessary automation to keep pace with application innovation
+                        and IT service delivery. HPE will be there as your partner as you take the journey towards a better enterprise that will
+                        quickly turn Ideas into successful business models.
+                    </p>
+
+                    <small class="author">Srikanth Venkataseshu
+                    </small>
+
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-xs" href="index.html">back &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container modal-footer">
+        <p>&copy; 2016 - Software University Foundation</p>
+
+    </div>
+</footer>
+
+</body>
+</html>
+
