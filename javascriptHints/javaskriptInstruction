@@ -1,0 +1,18 @@
+
+Първо влизам в Task manager -> Servise
+mongod –dbpath D:\example\path -    C:\mongoData
+
+В Entity не се създава Id! MongoDB го прави за нас.
+
+Ако Inteliji не ми предложи npm install -> в папката на проекта -> power shell и пиша npm install -> сваля депендънситата
+
+
+!!!! run през папка bin -> отварям нейното съдържание и тогава Ctrl + F9;
+Predi tova build project!
+
+
+
+mongod –dbpath D:\example\path -    C:\mongoData
+
+стартираме Robomongo
+

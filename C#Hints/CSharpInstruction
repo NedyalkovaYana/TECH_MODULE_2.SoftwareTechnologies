@@ -1,0 +1,9 @@
+Когато текста ми е в червено
+[Requared], : Controller и тн..
+Натискаме Ctrl + Shift + B , и трябва да се ресторнат!!!
+
+
+Смяна на порта:
+Отиваме в проекта, после в 
+Properties -> Web -> Project Url : locallhost:8000 -> 	тук сменяме текущия порт с който искаме.
+После цъкаме Create Virtual Directory и готово!!! 
